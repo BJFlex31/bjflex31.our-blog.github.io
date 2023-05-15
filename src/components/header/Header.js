@@ -39,15 +39,7 @@ const Header = (props) => {
                                 <div id="navbar" className="collapse navbar-collapse navigation-holder">
                                     <button className="menu-close"><i className="ti-close"></i></button>
                                     <ul className="nav navbar-nav mb-2 mb-lg-0">
-                                        <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} to="/">Home</Link>
-                                            <ul className="sub-menu">
-                                                <li><Link onClick={ClickHandler} to="/home">Home style 1</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/home2">Home style 2</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/home3">Home style 3</Link></li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item-has-children">
+                                        {/* <li className="menu-item-has-children">
                                             <Link to="#">Pages</Link>
                                             <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} to="/blog">Archive</Link></li>
@@ -60,7 +52,7 @@ const Header = (props) => {
                                                 <li><Link onClick={ClickHandler} to="/login">Login</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/register">Register</Link></li>
                                             </ul>
-                                        </li>
+                                        </li> */}
                                         <li><Link onClick={ClickHandler} to="/lifestyle">Lifestyle</Link></li>
                                         <li><Link onClick={ClickHandler} to="/foods">Foods</Link></li>
                                         <li><Link onClick={ClickHandler} to="/business">Business</Link></li>

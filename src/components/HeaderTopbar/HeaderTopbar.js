@@ -10,18 +10,8 @@ const HeaderTopbar = () => {
                     <div className="col col-lg-7 col-md-9 col-sm-12 col-12">
                         <div className="contact-intro">
                             <ul>
-                                <li className="update"><span>New Update</span></li>
-                                <li>Betting against meme stocks could get you seriously burned</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col  col-lg-5 col-md-3 col-sm-12 col-12">
-                        <div className="contact-info">
-                            <ul>
-                                <li><Link to="/"><i className="ti-facebook"></i></Link></li>
-                                <li><Link to="/"><i className="ti-twitter-alt"></i></Link></li>
-                                <li><Link to="/"><i className="ti-instagram"></i></Link></li>
-                                <li><Link to="/"><i className="ti-google"></i></Link></li>
+                                <li className="update"><span>Nouveaux articles disponible</span></li>
+                                <li>Powershell - Forcé un réseau privé ou public</li>
                             </ul>
                         </div>
                     </div>

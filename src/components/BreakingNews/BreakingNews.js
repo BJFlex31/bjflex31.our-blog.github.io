@@ -55,7 +55,7 @@ const BreakingNews = () => {
         <div className="wpo-breacking-news section-padding">
             <div className="container">
                 <div className="row">
-                    <div className="b-title"><span>Breaking News</span></div>
+                    <div className="b-title"><span>Derniers articles</span></div>
                     <div className="wpo-breacking-wrap">
                         <Slider {...settings}>
                             {Breaking.slice(0, 4).map((blog, bitem) => (
